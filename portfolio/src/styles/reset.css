@@ -1,0 +1,63 @@
+:root {
+  --color-background: linear-gradient(to bottom, #0C0C0C 0%, #0c0c0c 100%);
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-primary: #6880FF;
+  --color-primary-hover: #7C91FF;
+
+  --font-1: 1.4rem;
+  --font-2: 1.6rem;
+  --font-3: 3.2rem;
+
+  --font-family: 'Poppins', sans-serif;
+
+  --radius-button: 1.2rem;
+  --radius-card: 2.5rem;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body, html {
+  background: var(--color-background);
+  background-attachment: fixed;
+  color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body, input, button, textarea {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* section, header, footer {
+  border: 1px solid white;
+} */
+
+.mainApp {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  gap: 8rem;
+}
+
+body {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}

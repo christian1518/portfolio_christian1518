@@ -1,0 +1,13 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.listCard {
+  margin-top: 2.8rem;
+  margin-bottom: var(--font-2);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

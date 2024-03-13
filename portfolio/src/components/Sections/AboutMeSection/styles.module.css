@@ -1,0 +1,11 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.p {
+  width: 55rem;
+  margin-top: 3rem;
+}
+

@@ -1,0 +1,40 @@
+.footer {
+  border-top: 2px solid var(--color-white);
+  border-bottom: 2px solid var(--color-white);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.nav {
+  width: 8rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media(max-width: 50rem) {
+  .footer {
+    justify-content: center;
+  }
+
+  .nav {
+    justify-content: center;
+    width: 100%;
+    gap: 13px;
+  }
+
+  .p {
+    text-align: center;
+  }
+}
