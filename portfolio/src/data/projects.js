@@ -73,7 +73,7 @@ export const projects = [
     name: 'Portfólio Genérigo',
     description: 'Modelo genérico de portfólio',
     repository: 'https://github.com/Kenzie-Academy-Brasil-Developers/-Kenzie-Academy-Brasil-Developers-m3-s1-entrega-portfolio-template_christian1518',
-    image: 'src/assets/photo_project/portfolio_generico_photo.jpg',
+    image: 'src/assets/portfolio_generico_photo.jpg',
     link_app: 'https://portfolio-seven-nu-85.vercel.app/'
   },
 ];
