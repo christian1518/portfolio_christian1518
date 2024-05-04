@@ -1,5 +1,5 @@
 import { username } from '../../../data/user.js'
-import profile_photo from '../../../assets/profile_photo.jpg'
+import profile_photo from '../../../assets/profile_photo.png'
 import styles from './styles.module.css'
 
 function BanerSection() {
@@ -11,7 +11,7 @@ function BanerSection() {
           Olá! Sou Christian Rodrigues.
           Bem vindo ao meu portfólio
         </h1>
-        <p className={styles.p} >"Desenvolvedor web apaixonado por transformar linhas de código em experiências digitais envolventes e funcionais."</p>
+        <p className={styles.p} >Desenvolvedor Web, apaixonado por transformar linhas de código em experiências digitais envolventes e funcionais que ressoam na era tecnológica."</p>
       </div>
       <img className={styles.img} src={profile_photo} alt='imagem de Christian Rodrigues' />
     </section>

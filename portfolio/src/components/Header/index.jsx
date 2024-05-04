@@ -9,14 +9,14 @@ function Header() {
         <img src={logo} className={styles.imgLogo} alt='logo escrita com a palavra portifólio, na cor branca' />
         
         <ul className={styles.listHeader}>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#stack">Stack</a></li>
-          <li><a href="#project">Projetos</a></li>
+          <li><a className={styles.a} href="#sobre">Sobre</a></li>
+          <li><a className={styles.a} href="#stack">Stack</a></li>
+          <li><a className={styles.a} href="#project">Projetos</a></li>
         </ul>
       </nav>
       <a href="#contact"><Button text='Contato' /></a>
     </header>
   )
 }
-      
+
 export default Header

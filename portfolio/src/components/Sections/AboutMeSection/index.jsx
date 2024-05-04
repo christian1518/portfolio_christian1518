@@ -5,7 +5,7 @@ function AboutMeSection() {
     <section id="sobre" className={styles.section}>
       <h2>Sobre mim</h2>
       <p className={styles.p}>
-        Um desenvolvedor full stack em formação apaixonado por tecnologia.
+        Um desenvolvedor full stack apaixonado por tecnologia.
         
         Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação.
         

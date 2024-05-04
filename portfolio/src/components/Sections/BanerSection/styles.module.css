@@ -28,11 +28,24 @@
 
 .img {
   width: clamp(25.5rem, 10vw, 50.8rem);
-  border-radius: 50%;
+  height: clamp(50.5rem, 10vw, 50.8rem);
+  border-radius: 15%;
+  background-size: contain;
+  overflow: hidden;
+  background-position: center center;
+  filter: drop-shadow(10px 10px 40px var(--color-primary));
 }
 
 @media(min-width: 50rem) {
   .img {
     width: 50.8rem;
+  }
+}
+
+@media(max-width: 49rem) {
+  .img {
+    width: 25.8rem;
+    height: 30.8rem;
+    justify-content: center;
   }
 }

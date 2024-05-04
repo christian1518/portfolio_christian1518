@@ -5,12 +5,18 @@
   height: 8.6rem;
   display: flex;
   align-items: center;
-  margin-bottom: var(--font-2);
+  margin-bottom: 5rem;
+  box-shadow: 1px 1px 3px 0px var(--color-primary);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.2);
 }
 
 .image {
-  width: 2.8rem;
-  height: var(--font-3);
+  width: 4rem;
+  height: 4rem;
   margin-left: var(--font-3);
   margin-right: var(--font-3);
 } 

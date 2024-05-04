@@ -1,18 +1,20 @@
 :root {
-  --color-background: linear-gradient(to bottom, #0C0C0C 0%, #0c0c0c 100%);
+  --color-background: linear-gradient(to bottom, #282828 0%, #9e00ff 100%);
   --color-black: #000000;
   --color-white: #FFFFFF;
-  --color-primary: #6880FF;
+  --color-primary: #00EEA2;
   --color-primary-hover: #7C91FF;
 
   --font-1: 1.4rem;
   --font-2: 1.6rem;
   --font-3: 3.2rem;
+  --font-4: 2rem;
 
   --font-family: 'Poppins', sans-serif;
 
   --radius-button: 1.2rem;
   --radius-card: 2.5rem;
+  --radius-link: 1rem;
 
   font-size: 62.5%;
 }
@@ -27,7 +29,10 @@
 body, html {
   width: 100vw;
   height: 100vh;
+  scroll-behavior: smooth;
 }
+
+
 
 body, html {
   background: var(--color-background);
@@ -45,10 +50,6 @@ button {
   cursor: pointer;
 }
 
-/* section, header, footer {
-  border: 1px solid white;
-} */
-
 .mainApp {
   display: flex;
   flex-direction: column;
@@ -60,4 +61,23 @@ button {
 body {
   padding-bottom: 3rem;
   padding-top: 3rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-primary);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-hover);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff0044;
+  transition: 1s;
 }
