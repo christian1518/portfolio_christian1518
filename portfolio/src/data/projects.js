@@ -11,14 +11,14 @@ export const projects = [
     description: 'Aplicação voltada para compras de albums de música',
     repository: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-open-music-base_christian1518',
     image: 'src/assets/photo_project/open_music_photo.jpg',
-    link_app: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-open-music-base_christian1518'
+    link_app: 'https://open-music-79bepnjjk-christian1518s-projects.vercel.app/'
   },
   {
     name: 'Controll Finance',
     description: 'Aplicação voltada para o gerenciamento de entrada e sáida de valores de uma empresa',
     repository: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-control-finance_christian1518',
     image: 'src/assets/photo_project/controll_finance_photo.jpg',
-    link_app: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-control-finance_christian1518'
+    link_app: 'https://control-finance-736ys42jh-christian1518s-projects.vercel.app/'
   },
   {
     name: 'Hamburgueria',
@@ -32,7 +32,7 @@ export const projects = [
     description: 'Aplicação voltada para busca de usuários no github',
     repository: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-gitSearchBase__christian1518',
     image: 'src/assets/photo_project/git_search_photo.jpg',
-    link_app: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-gitSearchBase__christian1518'
+    link_app: 'https://git-search-r53adsbxy-christian1518s-projects.vercel.app/index.html'
   },
   {
     name: 'BandKamp',
@@ -46,14 +46,14 @@ export const projects = [
     description: 'Aplicação simples de um ecommerce',
     repository: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-M1-Ecommerce_christian1518',
     image: 'src/assets/photo_project/ecommerce_photo.jpg',
-    link_app: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-M1-Ecommerce_christian1518'
+    link_app: 'https://ecommerce-id4y3scb7-christian1518s-projects.vercel.app'
   },
   {
     name: 'Site genérico',
     description: 'Aplicação de um site genérico',
     repository: 'https://github.com/Kenzie-Academy-Brasil-Developers/-Kenzie-Academy-Brasil-Developers-m2-criando-site-institucional-generico_christian1518',
     image: 'src/assets/photo_project/site_generico.jpg',
-    link_app: 'https://github.com/Kenzie-Academy-Brasil-Developers/-Kenzie-Academy-Brasil-Developers-m2-criando-site-institucional-generico_christian1518'
+    link_app: 'https://sitegeneric-idpjaumfg-christian1518s-projects.vercel.app'
   },
   {
     name: 'Nukenzie',
